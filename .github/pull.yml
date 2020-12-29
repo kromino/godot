@@ -1,0 +1,9 @@
+version: "1"
+rules:
+  - base: master
+    upstream: godotengine:master    # change `wei` to the owner of upstream repo
+    mergeMethod: hardreset
+    
+  - base: 3.2
+    upstream: godotengine:3.2    # change `wei` to the owner of upstream repo
+    mergeMethod: hardreset
